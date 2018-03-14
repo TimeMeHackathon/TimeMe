@@ -8,6 +8,6 @@ public class ReadMe {
     /*
     Notes for the TimeMe project
     ==============================
-
+    just for the test of Git
      */
 }
