@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "247378919210",
+    "firebase_url": "https://timeme-a91a2.firebaseio.com",
+    "project_id": "timeme-a91a2",
+    "storage_bucket": "timeme-a91a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247378919210:android:a4c8931b9f861e22",
+        "android_client_info": {
+          "package_name": "com.superteam.timeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247378919210-jjif8aslmuqnltdptn73t4iie7vmf69u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.superteam.timeme",
+            "certificate_hash": "94305b30faf82db3762c75d472f84c98761a970e"
+          }
+        },
+        {
+          "client_id": "247378919210-pvve3s4sgknk9j74nqpk9a2ucpph80up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdRrhOUKkufkmPEXcCY0ouQs9a1VeGBIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247378919210-pvve3s4sgknk9j74nqpk9a2ucpph80up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
