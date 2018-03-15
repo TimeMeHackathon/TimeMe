@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +17,113 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
+        <activity android:name=".Client.ClientListActivity"
+            android:theme="@style/AppTheme"
+            android:label="Client List"
+            android:parentActivityName="com.superteam.timeme.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.MainActivity" />
+        </activity>
+
+        <activity android:name=".Client.AddClientActivity"
+            android:theme="@style/AppTheme"
+            android:label="Add Client"
+            android:parentActivityName="com.superteam.timeme.Client.ClientListActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Client.ClientListActivity" />
+        </activity>
+
+        <activity android:name=".Client.ViewClientActivity"
+            android:theme="@style/AppTheme"
+            android:label="View Client"
+            android:parentActivityName="com.superteam.timeme.Client.ClientListActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Client.ClientListActivity" />
+        </activity>
+
+        <activity android:name=".Client.EditClientActivity"
+            android:theme="@style/AppTheme"
+            android:label="Edit Client"
+            android:parentActivityName="com.superteam.timeme.Client.ViewClientActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Client.ViewClientActivity" />
+        </activity>
+
+
+
+        <activity android:name=".Project.ProjectListActivity"
+            android:theme="@style/AppTheme"
+            android:label="Project List"
+            android:parentActivityName="com.superteam.timeme.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.MainActivity" />
+        </activity>
+
+        <activity android:name=".Project.AddProjectActivity"
+            android:theme="@style/AppTheme"
+            android:label="Add Project"
+            android:parentActivityName="com.superteam.timeme.Project.ProjectListActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Project.ProjectListActivity" />
+        </activity>
+
+        <activity android:name=".Project.ViewProjectActivity"
+            android:theme="@style/AppTheme"
+            android:label="View Project"
+            android:parentActivityName="com.superteam.timeme.Project.ProjectListActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Project.ProjectListActivity" />
+        </activity>
+
+        <activity android:name=".Project.EditProjectActivity"
+            android:theme="@style/AppTheme"
+            android:label="Edit Project"
+            android:parentActivityName="com.superteam.timeme.Project.ViewProjectActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Project.ViewProjectActivity" />
+        </activity>
+
+
+
+        <activity android:name=".Project.TimeSheet.TimeSheetActivity"
+            android:theme="@style/AppTheme"
+            android:label="Project Time Sheet"
+            android:parentActivityName="com.superteam.timeme.Project.ViewProjectActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Project.ViewProjectActivity" />
+        </activity>
+
+        <activity android:name=".Project.TimeSheet.TimeSheetDetailsActivity"
+            android:theme="@style/AppTheme"
+            android:label="Project Time Sheet"
+            android:parentActivityName="com.superteam.timeme.Project.TimeSheet.TimeSheetActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.superteam.timeme.Project.TimeSheet.TimeSheetActivity" />
+        </activity>
+
     </application>
 
 </manifest>
